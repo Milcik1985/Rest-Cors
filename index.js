@@ -45,7 +45,11 @@ app.get("/generate-id", function(req, res){
     console.log(newId)
     res.setHeader("Content-type", "application/json");
     res.send(JSON.stringify({id: newId}))
-})
+}) 
+// arba
+// app.get("/getGeneratedId", function (req, res) {
+//     res.json({ id: uuidv4() });
+//   });
 
 // 2. Pasileisti savo serverį;
 app.listen(3000, ()=> {
