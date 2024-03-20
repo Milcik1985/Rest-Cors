@@ -48,7 +48,9 @@ app.get("/generate-id", function(req, res){
 }) 
 // arba
 // app.get("/getGeneratedId", function (req, res) {
-//     res.json({ id: uuidv4() });
+//     const id = uuidv4();
+//     console.log("log ", id);
+//     res.json({ id: id });
 //   });
 
 // 2. Pasileisti savo serverį;
